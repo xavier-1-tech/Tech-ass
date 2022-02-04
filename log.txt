@@ -1,0 +1,12 @@
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Thu 2022-02-03 23:39:11 UTC; 1h 38min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 1982 ExecStop=/usr/sbin/apachectl stop (code=exited, status=0/SUCCESS)
+   Main PID: 512 (code=exited, status=0/SUCCESS)
+
+Feb 03 23:37:40 ip-172-31-88-123 systemd[1]: Starting The Apache HTTP Server...
+Feb 03 23:37:40 ip-172-31-88-123 systemd[1]: Started The Apache HTTP Server.
+Feb 03 23:39:11 ip-172-31-88-123 systemd[1]: Stopping The Apache HTTP Server...
+Feb 03 23:39:11 ip-172-31-88-123 systemd[1]: apache2.service: Succeeded.
+Feb 03 23:39:11 ip-172-31-88-123 systemd[1]: Stopped The Apache HTTP Server.
